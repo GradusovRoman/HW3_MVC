@@ -1,6 +1,5 @@
 package ru.geekbrains.HomeWork_3.showcase;
 
-
 public class Product {
 
     private final int id;

@@ -6,6 +6,7 @@ import ru.geekbrains.HomeWork_3.showcase.Product;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Component
 public class CartImpl implements Cart{
 
