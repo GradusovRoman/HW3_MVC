@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<title>Spring!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<body>
+
+</h1>Spring Test / Spring MVC</h1>
+<p th:text="#{home.welcome}">Welcome to our grocery store!</p>
+<br/><br/><br/>
+
+<table cellspacing="2" border="2" cellpadding="4" width="300">
+    <thead>
+    <tr><b><th> Id </th></b><b><th> Product </th></b><b><th> Price </th></b></tr>
+    </thead>
+    <tbody>
+    <tr th:if="${products.empty}"></tr>
+    <tr th:each="product : ${products}">
+        <td><span th:text="${product.id}"> Id </span></td>
+        <td><span th:text="${product.name}"> Product </span></td>
+        <td><span th:text="${product.price}"> Price </span></td>
+    </tr>
+    </tbody>
+</table>
+
+<br/><br/><br/>
+<form action="mailto:WebStore@mail.ru" enctype="text/plain">
+    <p><input type="submit" value="Send Mail with order >>"></p>
+</form>>
+<br/>
+<form action="/HomeWork_3/json" method="get">
+    <input type="submit" value="json" width="100"/>
+</form>
+<br/>
+<form action="/HomeWork_3/xml" method="get">
+    <input type="submit" value="xml" width="100"/>
+</form>
+</body>
+</html>
