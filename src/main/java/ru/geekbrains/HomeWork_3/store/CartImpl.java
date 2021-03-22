@@ -2,7 +2,6 @@ package ru.geekbrains.HomeWork_3.store;
 
 import org.springframework.stereotype.Component;
 import ru.geekbrains.HomeWork_3.showcase.Product;
-
 import java.util.ArrayList;
 import java.util.List;
 
