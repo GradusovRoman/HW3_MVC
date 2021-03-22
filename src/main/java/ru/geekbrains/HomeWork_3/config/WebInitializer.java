@@ -1,6 +1,5 @@
 package ru.geekbrains.HomeWork_3.config;
 
-
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

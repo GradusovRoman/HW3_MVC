@@ -1,6 +1,5 @@
 package ru.geekbrains.HomeWork_3.controller;
 
-
 import org.springframework.ui.Model;
 import ru.geekbrains.HomeWork_3.showcase.Product;
 import org.springframework.stereotype.Controller;

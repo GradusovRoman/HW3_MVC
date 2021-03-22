@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import ru.geekbrains.HomeWork_3.showcase.Product;
 import java.io.IOException;
 
+
 @RestController
 @RequestMapping("/xml")
 public class XmlController {
